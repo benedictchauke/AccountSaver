@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://BenedictGui:goober@zaiodbassignments-63f5h.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
