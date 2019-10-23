@@ -1,8 +1,8 @@
 {
   "name": "react-accountloginfullstack",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Login and save your contacts",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/benedictchauke/react-accountloginfullstack/issues"
   },
-  "homepage": "https://github.com/benedictchauke/react-accountloginfullstack#readme"
+  "homepage": "https://github.com/benedictchauke/react-accountloginfullstack#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.6"
+  }
 }
